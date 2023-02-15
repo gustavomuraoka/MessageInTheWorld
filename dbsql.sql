@@ -7,8 +7,5 @@ CREATE TABLE IF NOT EXISTS `coordenadas` (
 `y` varchar(11) NOT NULL
 ) ENGINE=InnoDB ;
 
-delete from coordenadas;
-
-set SQL_SAFE_UPDATES = 0;
-
-select * from coordenadas;
+/* Nada elaborado, apenas feito de forma rápida, pra atender a necessidade do projeto. 
+This wasn't made with too much effort, just had to do something to store the info */ 
