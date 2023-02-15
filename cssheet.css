@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(45deg, rgb(0,150,150), rgb(30,30,30)) 
+}
+
+/* CSS do topnav retirado do W3Schools e adaptado a devida necessidade */
+.topnav {
+    background-color: #044b36;
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    font-family:cursive;
+    font-size: 15px;
+}
+
+.titleabout{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutcontent{
+    color: rgba(250,250,250, 0.8);
+    font-size: 22px;
+    width: 70%;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact{
+    font-size: 15px;
+}
+
+.Latlnginput{
+    border-radius: 5px;
+    border-bottom: none;
+    border-top: none;
+}
+
+.Msginput{
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+}
+
+.Formbut{
+    border-radius: 3px;
+    background-color: rgba(11, 194, 148, 0.8);
+    cursor: pointer;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 20%;
+    height: 50px;
+}
+.Formbut:hover{
+    color:white;
+    background-color: rgb(5, 132, 100);;
+}
+
+::placeholder{
+    text-align: center;
+}
